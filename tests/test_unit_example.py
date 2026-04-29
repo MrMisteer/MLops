@@ -6,7 +6,7 @@ from app import normalize_item
 @pytest.mark.parametrize(
     ("input_text", "expected"),
     [
-        ("  Apple  ", "BANANE"),
+        ("  Apple  ", "apple"),
         ("BaNaNa", "banana"),
         ("", ""),
         (None, ""),
